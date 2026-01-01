@@ -21,10 +21,8 @@ export function TshirtScene() {
                 gl={{ preserveDrawingBuffer: true }}
                 style={{ background: "#1a1a1a" }}
             >
-                {/* Fondo gris oscuro */}
                 <color attach="background" args={["#1a1a1a"]} />
 
-                {/* Grid cuadriculado en el suelo */}
                 <Grid
                     position={[0, -1, 0]}
                     args={[20, 20]}
